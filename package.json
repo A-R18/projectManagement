@@ -1,0 +1,36 @@
+{
+  "name": "projectmanagement",
+  "version": "1.0.0",
+  "description": "a project for learning modern node backend techniques",
+  "keywords": [
+    "projectmanagement",
+    "practice",
+    "project",
+    "backend",
+    "nodeproject",
+    "backend engineering"
+  ],
+  "homepage": "https://github.com/A-R18/projectManagement#readme",
+  "bugs": {
+    "url": "https://github.com/A-R18/projectManagement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A-R18/projectManagement.git"
+  },
+  "license": "ISC",
+  "author": "Abdullah Rashid",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.1"
+  }
+}
