@@ -1,3 +1,9 @@
 node_modules
 .env
 readme.md
+package.json
+package-lock.json
+.prettierignore
+.prettierrc
+.env.*
+*.log
