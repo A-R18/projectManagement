@@ -15,9 +15,8 @@ const checkSystemHealth = (req, res) => {
 
  */
 
- const healthCheck = asyncHandlerFunction(async (req, res)=>{
-        res.status(200).json(new ApiResponse(200, {message: "system works fine!"}));
-    });
+const healthCheck = asyncHandlerFunction(async (req, res) => {
+  res.status(200).json(new ApiResponse(200, { message: "system works fine!" }));
+});
 
-
-export default  healthCheck ;
+export default healthCheck;
